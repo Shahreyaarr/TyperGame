@@ -2,20 +2,34 @@
 
 <div align="center">
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-typegame.web.app-00f0ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://typegame.web.app)
+  [![Live Demo](https://img.shields.io/badge/🎮%20LIVE%20DEMO-typegame.web.app-00f0ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://typegame.web.app)
   [![Firebase Hosting](https://img.shields.io/badge/Hosted%20on-Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](https://typegame.web.app)
   [![GitHub Repo](https://img.shields.io/badge/GitHub-Shahreyaarr%2FTyperGame-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shahreyaarr/TyperGame)
   [![Status](https://img.shields.io/badge/Status-Active%20%2F%20Deployed-00e676?style=for-the-badge)](https://typegame.web.app)
 
+  <br /><br />
+
+  <h1>🚀 <a href="https://typegame.web.app">Play Live Game: https://typegame.web.app</a> 🚀</h1>
+
+  <p><strong>Defend the perimeter, lock on targets, and fire ballistic strikes by typing with speed and pinpoint accuracy.</strong></p>
+
   <br />
 
-  <h3>⚡ Tactical Ballistic Keyboard Combat System ⚡</h3>
-  <p>Defend the perimeter, lock on targets, and fire ballistic strikes by typing with speed and pinpoint accuracy.</p>
+  <a href="https://typegame.web.app" target="_blank">
+    <img src="preview.png" alt="TyperGame Live Demo Preview" width="900" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0, 240, 255, 0.25);" />
+  </a>
+
+  <br /><br />
 
   <p>
-    <a href="https://typegame.web.app"><strong>🌐 Play Online (Live Demo)</strong></a> ·
+    👉 <a href="https://typegame.web.app"><strong>Click Here To Play TyperGame Live (No installation required)</strong></a> 👈
+  </p>
+
+  <p>
+    <a href="#-live-demo">Live Demo</a> ·
+    <a href="#-about-the-game">About</a> ·
     <a href="#-key-features">Key Features</a> ·
-    <a href="#-controls">Controls</a> ·
+    <a href="#-controls--shortcuts">Controls</a> ·
     <a href="#-tech-stack">Tech Stack</a> ·
     <a href="#-local-development">Local Setup</a>
   </p>
@@ -23,17 +37,19 @@
 
 ---
 
-## 🚀 Live Deployment
+## 🌐 Live Demo
 
-The game is deployed and available globally at:
+You can play **TyperGame** instantly on any desktop or mobile browser with zero installation:
 
 ### 🔗 **[https://typegame.web.app](https://typegame.web.app)**
+
+> ⚡ **Quick Tip:** Put on your headphones or enable system audio for synthesized retro laser fire, combo chimes, and tactical explosions!
 
 ---
 
 ## 🕹️ About The Game
 
-**TyperGame (`TYPE//TANK`)** is an arcade-style typing defense game designed to sharpen your keyboard speed, reaction time, and precision. Incoming enemy drones, missiles, and armored units descend towards your command station with designated code words. Type the matching target word to lock your turret, unleash ballistic artillery, and vaporize hostile units before they breach your hull.
+**TyperGame (`TYPE//TANK`)** is an arcade-style tactical typing defense game designed to elevate your keyboard speed, reaction time, and typing precision. Incoming enemy drones, missiles, and heavy armor descend towards your command station with designated target codes. Type the matching target word to lock your turret, fire ballistic artillery, and vaporize hostile units before they breach your hull!
 
 ---
 
@@ -47,7 +63,7 @@ The game is deployed and available globally at:
 
 - **🔊 Web Audio API Sound Engine**:
   - Procedural, synthesized retro audio effects (laser fire, explosions, combo chimes, alerts).
-  - 100% self-contained — no bulky external MP3/WAV files required.
+  - 100% self-contained — zero external audio files or network latency.
 
 - **📊 Combat HUD & Real-Time Telemetry**:
   - Real-time **Words Per Minute (WPM)** computation.
@@ -85,7 +101,7 @@ The game is deployed and available globally at:
 - **Graphics**: HTML5 `<canvas>` rendering engine with 60 FPS animation loop
 - **Audio**: Web Audio API (Synthesized oscillators & noise nodes)
 - **Typography**: Google Fonts (*JetBrains Mono*, *Orbitron*, *Rajdhani*, *Outfit*)
-- **Hosting**: Google Firebase Hosting
+- **Hosting**: Google Firebase Hosting ([https://typegame.web.app](https://typegame.web.app))
 
 ---
 
@@ -95,10 +111,11 @@ The game is deployed and available globally at:
 TyperGame/
 ├── index.html          # Main arcade cabinet and screen viewports
 ├── style.css           # Glassmorphism, cyber aesthetics & responsive layouts
+├── preview.png         # Live game preview screenshot
 ├── firebase.json       # Firebase Hosting configuration
 ├── .firebaserc         # Firebase project binding (typergame)
 ├── .gitignore          # Git exclusion rules
-├── README.md           # Documentation
+├── README.md           # Documentation with live demo links
 └── js/
     ├── app.js          # Screen router, modal controllers & UI event glue
     ├── audio.js        # Web Audio API synthesizer
